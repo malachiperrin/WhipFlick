@@ -1,0 +1,22 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+}
+
+footer > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+footer div img:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .post {
+        width: 100%;
+    }
+}
+
+.post-image {
+    align-self: center;
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+.post div:first-of-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.car-specs-button {
+    background-color: black;
+    font-family: 'Racing Sans One', cursive;
+    color: #fff;
+    border-top-right-radius: 10px;
+    padding: 8px;
+}
+
+.car-specs-button:active {
+    outline: 2px solid darkgray;
+    outline-offset: 3px;
+}
+
+.post div:last-of-type {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.post div:last-child button {
+    margin: 10px;
+}
+
+
+.post div button img {
+    width: 20px;
+    height: 20px;
+}
