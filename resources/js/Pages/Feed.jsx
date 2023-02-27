@@ -18,7 +18,7 @@ export default function Feed() {
 
             <StoryHeader />
 
-            <main style={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent:"center"}}>
+            <main style={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent:"center", paddingBottom: "45px"}}>
                 <Post />
                 <Post />
             </main>
