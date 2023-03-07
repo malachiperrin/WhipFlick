@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.home-row {
+    background: linear-gradient(180deg, rgba(255, 192, 203, 0.35), rgba(0, 0, 255, 0.185));
+    width: 100%;
+    height: 100%;
+}
+
+.home-row h1 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 108px;
+    font-weight: 900;
+    z-index: 1;
+}
+
+.home-row-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.home-row-flex div {
+    color: rgb(3, 3, 82);
+}
+
+.home-row-flex div > img {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    max-width: 100%;
+    z-index: 2;
+}
