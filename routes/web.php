@@ -27,7 +27,7 @@ Route::get('/', function () {
 
 Route::get('/feed', function() {
     return Inertia::render('Feed');
-});
+})->name('feed');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
